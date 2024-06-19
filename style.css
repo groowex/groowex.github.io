@@ -1,0 +1,21 @@
+.logo {
+   width: 600px;
+  /* height: 400px;*/
+   }
+   .btn{
+width:200px ;
+height:100px ;
+background-color: brown;
+border-radius: 20px;
+font-size: 20px;
+color: cornsilk;
+display: block;
+margin: 50px 100px 50px 200px;
+   }
+   .btn:hover{
+background-color: lightseagreen;
+   }
+   .btn:hover ~ .logo {
+display: none;
+
+   }
